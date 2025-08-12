@@ -16,11 +16,6 @@ const Movies = () => {
       })
     }
 
-{/*       
-      {dummyShowsData.slice(0,6).map((show, index) => (
-          <MovieCard key={index} movie={show} />
-      ))} */}
-      
               </div>
 
     </div>

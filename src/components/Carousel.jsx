@@ -1,37 +1,43 @@
 import React from 'react'
+import banner0 from "../assets/images/banners/hero-banner-0.jpg"
 import banner1 from "../assets/images/banners/hero-banner-1.jpg"
 import banner2 from "../assets/images/banners/hero-banner-2.jpg"
 import banner3 from "../assets/images/banners/hero-banner-3.jpg"
-import banner4 from "../assets/images/banners/hero-banner-4.jpg"
+
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
+import { useNavigate } from 'react-router-dom'
 
 const Carousel = () => {
     const slides = [
         {
+            img: banner0,
+            title: "Spider-Man - Far From Home",
+            desc: "Peter Parker embarks on a European school trip, only to have his vacation interrupted by mysterious elemental creatures and a new ally, Mysterio.",
+            id: 745921
+        },
+        {
             img: banner1,
             title: "Ironheart",
             desc: "Young genius Riri Williams returns home, where her cutting-edge tech clashes with dark magic and a rising threat known as The Hood.",
+            id: 318452
         },
         {
             img: banner2,
             title: "Hawkeye",
             desc: "Clint Barton teams up with young archer Kate Bishop during the holidays to confront ghosts from his past and a criminal underworld.",
+            id: 520498
         },
         {
             img: banner3,
             title: "Daredevil: Born Again",
             desc: "As Matt Murdock battles crime in the courtroom and on the streets, Wilson Fisk resurfaces with dangerous ambitions for New York.",
-        },
-        {
-            img: banner4,
-            title: "Ms. Marvel",
-            desc: "Kamala Khan discovers her powers and identity as a mutant, while navigating life as a superhero and a fangirl in Jersey City.",
+            id: 907134
         },
     ];
 
-
+    const navigate = useNavigate();
 
     const autoplayOptions = Autoplay({ delay: 30000, stopOnInteraction: false });
 
@@ -81,8 +87,8 @@ const Carousel = () => {
                                 <p className="text-base md:text-lg font-medium drop-shadow-md">
                                     {slide.desc}
                                 </p>
-                                <button className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
-                                    Register Now
+                                <button onClick={() => { navigate(`/movies/${slide.id}`) }} className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
+                                    Book Now
                                 </button>
                             </div>
                         </div>

@@ -33,7 +33,7 @@ const FeaturedSection = () => {
 
         <div className='flex justify-center mt-20'>
 
-        <button onClick={()=> {navigate("/movies"); scrollTop(0,0)}} className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
+        <button onClick={()=> {navigate("/movies"); scrollTo(0,0);}} className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
                                     Show More
                                 </button>
 
@@ -44,3 +44,6 @@ const FeaturedSection = () => {
 }
 
 export default FeaturedSection
+
+
+

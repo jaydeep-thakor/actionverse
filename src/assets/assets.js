@@ -1,19 +1,52 @@
-import poster1 from "../assets/images/posters/1.jpg"
-import poster2 from "../assets/images/posters/2.jpg"
-import poster3 from "../assets/images/posters/3.jpg"
-import poster4 from "../assets/images/posters/4.jpg"
-import poster5 from "../assets/images/posters/5.jpg"
-import poster6 from "../assets/images/posters/6.jpg"
-import poster7 from "../assets/images/posters/7.jpg"
-import poster8 from "../assets/images/posters/8.jpg"
-import poster9 from "../assets/images/posters/9.jpg"
-import poster10 from "../assets/images/posters/10.jpg"
-import poster11 from "../assets/images/posters/11.jpg"
-import poster12 from "../assets/images/posters/12.jpg"
+import seriesPoster1 from "../assets/images/posters/1.jpg"
+import seriesPoster2 from "../assets/images/posters/2.jpg"
+import seriesPoster3 from "../assets/images/posters/3.jpg"
+import seriesPoster4 from "../assets/images/posters/4.jpg"
+import seriesPoster5 from "../assets/images/posters/5.jpg"
+import seriesPoster6 from "../assets/images/posters/6.jpg"
+import seriesPoster7 from "../assets/images/posters/7.jpg"
+import seriesPoster8 from "../assets/images/posters/8.jpg"
+import seriesPoster9 from "../assets/images/posters/9.jpg"
+import seriesPoster10 from "../assets/images/posters/10.jpg"
+import seriesPoster11 from "../assets/images/posters/11.jpg"
+import seriesPoster12 from "../assets/images/posters/12.jpg"
+
+import cast1 from "../assets/images/casts/1.jpg"
+import cast2 from "../assets/images/casts/2.jpg"
+import cast3 from "../assets/images/casts/3.jpg"
+import cast4 from "../assets/images/casts/4.jpg"
+import cast5 from "../assets/images/casts/5.jpg"
 
 const dummyCastsData = [
-    { "name": "Milla Jovovich", "realName": "Milla Jovovich", "profile_path": "./images/casts/1.jpg", },
+    {name: "Hailee Steinfeld", castName: "Kate Bishop", castImg : cast1},
+    {name: "", castName: "Pizza Dog", castImg : cast2},
+    {name: "Jeremy Renner", castName: "Clint Barton", castImg : cast3},
+    {name: "Florence Pugh", castName: "Yelena Belova", castImg : cast4},
+    {name: "Vera Farmiga", castName: "Eleanor Bishop", castImg : cast5},
 ]
+
+export const dummyDateTimeData = {
+    "2025-07-24": [
+        { "time": "2025-07-24T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd1" },
+        { "time": "2025-07-24T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd2" },
+        { "time": "2025-07-24T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd3" }
+    ],
+    "2025-07-25": [
+        { "time": "2025-07-25T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd4" },
+        { "time": "2025-07-25T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd5" },
+        { "time": "2025-07-25T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd6" }
+    ],
+    "2025-07-26": [
+        { "time": "2025-07-26T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd7" },
+        { "time": "2025-07-26T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd8" },
+        { "time": "2025-07-26T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd9" }
+    ],
+    "2025-07-27": [
+        { "time": "2025-07-27T01:00:00.000Z", "showId": "68395b407f6329be2bb45bda" },
+        { "time": "2025-07-27T03:00:00.000Z", "showId": "68395b407f6329be2bb45bdb" },
+        { "time": "2025-07-27T05:00:00.000Z", "showId": "68395b407f6329be2bb45bdc" }
+    ]
+}
 
 export const dummyShowsData = [
     {
@@ -21,7 +54,7 @@ export const dummyShowsData = [
         "id": 318452,
         "title": "Ironheart",
         "overview": "Riri Williams, a brilliant teenage inventor, creates the most advanced suit of armor since Iron Man. As she finds her place in a post-Tony Stark world, she faces threats that test her genius and heart.",
-        "poster_path": poster1,
+        "poster_path": seriesPoster1,
         "genres": [
             { "id": 18, "name": "Drama" },
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
@@ -39,7 +72,7 @@ export const dummyShowsData = [
         "id": 520498,
         "title": "Hawkeye",
         "overview": "Former Avenger Clint Barton teams up with a young archer, Kate Bishop, to confront enemies from his past as Ronin — all while trying to get home in time for Christmas.",
-        "poster_path": poster2,
+        "poster_path": seriesPoster2,
         "genres": [
             { "id": 10759, "name": "Action & Adventure" },
             { "id": 18, "name": "Drama" },
@@ -57,7 +90,7 @@ export const dummyShowsData = [
         "id": 907134,
         "title": "Daredevil: Born Again",
         "overview": "Matt Murdock returns to Hell's Kitchen as Daredevil, balancing life as a blind lawyer and a masked vigilante. With old enemies rising and new threats emerging, his darkest chapter unfolds.",
-        "poster_path": poster3,
+        "poster_path": seriesPoster3,
         "genres": [
             { "id": 80, "name": "Crime" },
             { "id": 18, "name": "Drama" },
@@ -75,7 +108,7 @@ export const dummyShowsData = [
         "id": 284761,
         "title": "Ms. Marvel",
         "overview": "Kamala Khan, a Muslim American teenager growing up in Jersey City, discovers she has polymorphic powers. As a huge fan of the Avengers—especially Captain Marvel—Kamala struggles to balance high school life, family expectations, and her newfound identity as a superhero.",
-        "poster_path": poster4,
+        "poster_path": seriesPoster4,
         "genres": [
             { "id": 10759, "name": "Action & Adventure" },
             { "id": 35, "name": "Comedy" },
@@ -93,7 +126,7 @@ export const dummyShowsData = [
         "id": 675230,
         "title": "Agatha: All Along",
         "overview": "Agatha Harkness returns after the events of Westview, stripped of her powers and forced to reckon with her past. As she explores dark magic and the mysteries of witchcraft, a new coven may rise—or fall.",
-        "poster_path": poster5,
+        "poster_path": seriesPoster5,
         "genres": [
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
             { "id": 9648, "name": "Mystery" },
@@ -111,7 +144,7 @@ export const dummyShowsData = [
         "id": 139846,
         "title": "WandaVision",
         "overview": "Living idealized suburban lives, Wanda Maximoff and Vision begin to suspect that everything is not as it seems. As their world unravels, they must confront the truth behind their constructed reality.",
-        "poster_path": poster6,
+        "poster_path": seriesPoster6,
         "genres": [
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
             { "id": 18, "name": "Drama" },
@@ -129,7 +162,7 @@ export const dummyShowsData = [
         "id": 746193,
         "title": "The Falcon and the Winter Soldier",
         "overview": "Sam Wilson and Bucky Barnes team up on a global mission that tests their abilities—and their patience—in the aftermath of Captain America's legacy.",
-        "poster_path": poster7,
+        "poster_path": seriesPoster7,
         "genres": [
             { "id": 10759, "name": "Action & Adventure" },
             { "id": 18, "name": "Drama" },
@@ -147,7 +180,7 @@ export const dummyShowsData = [
         "id": 381920,
         "title": "Your Friendly Neighborhood Spider-Man",
         "overview": "An animated retelling of Peter Parker’s early days as Spider-Man, navigating high school, friendship, and his journey into becoming a hero—with a twist on the origin story.",
-        "poster_path": poster8,
+        "poster_path": seriesPoster8,
         "genres": [
             { "id": 16, "name": "Animation" },
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
@@ -165,7 +198,7 @@ export const dummyShowsData = [
         "id": 609473,
         "title": "Loki Season 2",
         "overview": "After the multiverse fractures, Loki joins forces with Mobius, Sylvie, and new allies to navigate time loops, branching timelines, and unraveling chaos at the TVA. The fate of reality hangs in the balance.",
-        "poster_path": poster9,
+        "poster_path": seriesPoster9,
         "genres": [
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
             { "id": 18, "name": "Drama" },
@@ -183,7 +216,7 @@ export const dummyShowsData = [
         "id": 492087,
         "title": "X-Men '97",
         "overview": "The X-Men are back in this continuation of the iconic 1990s animated series, facing new threats and internal conflict as they fight to protect a world that hates and fears them.",
-        "poster_path": poster10,
+        "poster_path": seriesPoster10,
         "genres": [
             { "id": 16, "name": "Animation" },
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
@@ -201,7 +234,7 @@ export const dummyShowsData = [
         "id": 753810,
         "title": "Guardians of the Galaxy Holiday Special",
         "overview": "The Guardians head to Earth to find the perfect Christmas gift for Peter Quill. What follows is a heartwarming and hilarious adventure filled with festive chaos, unexpected surprises, and galactic cheer.",
-        "poster_path": poster11,
+        "poster_path": seriesPoster11,
         "genres": [
             { "id": 35, "name": "Comedy" },
             { "id": 878, "name": "Science Fiction" },
@@ -219,7 +252,7 @@ export const dummyShowsData = [
         "id": 864209,
         "title": "What If...? Season 2",
         "overview": "The Watcher guides us through new and strange alternate realities in the Marvel multiverse, featuring unexpected twists, reimagined heroes, and surprising outcomes to familiar stories.",
-        "poster_path": poster12,
+        "poster_path": seriesPoster12,
         "genres": [
             { "id": 16, "name": "Animation" },
             { "id": 10765, "name": "Sci-Fi & Fantasy" },
@@ -235,109 +268,65 @@ export const dummyShowsData = [
     }
 ]
 
-export const dummyMoviessData = [
+// export const dummyMoviessData = [
 
-    {
-    "_id": "43827",
-    "id": 43827,
-    "title": "Avengers: Age of Ultron",
-    "overview": "When Tony Stark jumpstarts a dormant peacekeeping program, things go terribly wrong, forcing him, Thor, the Hulk, and the rest of the Avengers to reassemble as the fate of Earth hangs in the balance. As the villainous Ultron emerges, it's up to Earth's mightiest heroes to stop him from enacting his terrible plans.",
-    "poster_path": posterAgeOfUltron, // Replace with actual image import or URL
-    "genres": [
-        { "id": 28, "name": "Action" },
-        { "id": 12, "name": "Adventure" },
-        { "id": 878, "name": "Science Fiction" }
-    ],
-    "casts": dummyCastsData, 
-    "release_date": "2015-05-01",
-    "original_language": "en",
-    "tagline": "A new age begins.",
-    "vote_average": 7.3,
-    "vote_count": 78000,
-    "runtime": 141
-},
+//     {
+//     "_id": "43827",
+//     "id": 43827,
+//     "title": "Avengers: Age of Ultron",
+//     "overview": "When Tony Stark jumpstarts a dormant peacekeeping program, things go terribly wrong, forcing him, Thor, the Hulk, and the rest of the Avengers to reassemble as the fate of Earth hangs in the balance. As the villainous Ultron emerges, it's up to Earth's mightiest heroes to stop him from enacting his terrible plans.",
+//     "poster_path": moviePoster1, // Replace with actual image import or URL
+//     "genres": [
+//         { "id": 28, "name": "Action" },
+//         { "id": 12, "name": "Adventure" },
+//         { "id": 878, "name": "Science Fiction" }
+//     ],
+//     "casts": dummyCastsData, 
+//     "release_date": "2015-05-01",
+//     "original_language": "en",
+//     "tagline": "A new age begins.",
+//     "vote_average": 7.3,
+//     "vote_count": 78000,
+//     "runtime": 141
+// },
 
-    {
-    "_id": "87542",
-    "id": 87542,
-    "title": "Black Widow",
-    "overview": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-    "poster_path": posterBlackWidow,
-    "genres": [
-        { "id": 28, "name": "Action" },
-        { "id": 12, "name": "Adventure" },
-        { "id": 878, "name": "Science Fiction" }
-    ],
-    "casts": dummyCastsData,
-    "release_date": "2021-07-09",
-    "original_language": "en",
-    "tagline": "Her world. Her secrets. Her legacy.",
-    "vote_average": 6.8,
-    "vote_count": 32000,
-    "runtime": 134
-}
+//     {
+//     "_id": "87542",
+//     "id": 87542,
+//     "title": "Black Widow",
+//     "overview": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+//     "poster_path": moviePoster2,
+//     "genres": [
+//         { "id": 28, "name": "Action" },
+//         { "id": 12, "name": "Adventure" },
+//         { "id": 878, "name": "Science Fiction" }
+//     ],
+//     "casts": dummyCastsData,
+//     "release_date": "2021-07-09",
+//     "original_language": "en",
+//     "tagline": "Her world. Her secrets. Her legacy.",
+//     "vote_average": 6.8,
+//     "vote_count": 32000,
+//     "runtime": 134
+// }
 
-]
+// ]
 
 export const dummyTrailers = [
     {
-        title: "Ironheart",
         image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=WpW36ldAqnM"
+        videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
     },
     {
-        title: "Hawkeye",
-        image: "https://img.youtube.com/vi/5VYb3B1ETlk/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=5VYb3B1ETlk"
+        image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=-sAOWhvheK8'
     },
     {
-        title: "Daredevil: Born Again",
-        image: "https://img.youtube.com/vi/nqGmYHXJzZM/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=nqGmYHXJzZM"
+        image: "https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=1pHDWnXmK7Y'
     },
     {
-        title: "Ms. Marvel",
-        image: "https://img.youtube.com/vi/m9EX0f6V11Y/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=m9EX0f6V11Y"
+        image: "https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=umiKiW4En9g'
     },
-    {
-        title: "Agatha: All Along",
-        image: "https://img.youtube.com/vi/qjFaAo8-PaA/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=qjFaAo8-PaA"
-    },
-    {
-        title: "WandaVision",
-        image: "https://img.youtube.com/vi/sj9J2ecsSpo/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=sj9J2ecsSpo"
-    },
-    {
-        title: "The Falcon and the Winter Soldier",
-        image: "https://img.youtube.com/vi/IWBsDaFWyTE/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=IWBsDaFWyTE"
-    },
-    {
-        title: "Your Friendly Neighborhood Spider-Man",
-        image: "https://img.youtube.com/vi/jxvPjleZ6ew/maxresdefault.jpg", // placeholder from animated content
-        videoUrl: "https://www.youtube.com/watch?v=jxvPjleZ6ew"
-    },
-    {
-        title: "Loki Season 2",
-        image: "https://img.youtube.com/vi/dug56u8NN7g/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=dug56u8NN7g"
-    },
-    {
-        title: "X-Men '97",
-        image: "https://img.youtube.com/vi/pD3cHFNyW2g/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=pD3cHFNyW2g"
-    },
-    {
-        title: "Guardians of the Galaxy Holiday Special",
-        image: "https://img.youtube.com/vi/OYhFFQl4fLs/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=OYhFFQl4fLs"
-    },
-    {
-        title: "What If...? Season 2",
-        image: "https://img.youtube.com/vi/TL6Oq0fB9xU/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=TL6Oq0fB9xU"
-    }
 ]
