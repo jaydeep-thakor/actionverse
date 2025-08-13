@@ -16,6 +16,9 @@ import cast2 from "../assets/images/casts/2.jpg"
 import cast3 from "../assets/images/casts/3.jpg"
 import cast4 from "../assets/images/casts/4.jpg"
 import cast5 from "../assets/images/casts/5.jpg"
+import cast6 from "../assets/images/casts/6.jpg"
+import cast7 from "../assets/images/casts/7.jpg"
+import cast8 from "../assets/images/casts/8.jpg"
 
 const dummyCastsData = [
     {name: "Hailee Steinfeld", castName: "Kate Bishop", castImg : cast1},
@@ -23,6 +26,9 @@ const dummyCastsData = [
     {name: "Jeremy Renner", castName: "Clint Barton", castImg : cast3},
     {name: "Florence Pugh", castName: "Yelena Belova", castImg : cast4},
     {name: "Vera Farmiga", castName: "Eleanor Bishop", castImg : cast5},
+    {name: "Tony Dalton", castName: "Jack Duquesne", castImg : cast6},
+    {name: "Alaqua Cox", castName: "Echo", castImg : cast7},
+    {name: "Fra Fee", castName: "Kazi", castImg : cast8},
 ]
 
 export const dummyDateTimeData = {

@@ -92,7 +92,7 @@ return show ? <div className='custom-container pt-20 md:pt-30 pb-10'>
 
 <div className='pt-7 md:pt-14'>
 <h2 className='text-lg font-medium mb-4'>Casts</h2>
-<div className='flex items-center gap-4 w-max px-4 overflow-x-auto no-scrollbar mt-8 pb-4'>
+<div className='flex gap-4 w-max px-4 overflow-x-auto no-scrollbar mt-8 pb-4'>
 <Casts casts={show.showObj.casts}/>
 </div>
 </div>
