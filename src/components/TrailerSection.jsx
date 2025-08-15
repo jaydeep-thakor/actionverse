@@ -1,34 +1,55 @@
-import React, { useState } from 'react'
-import { dummyTrailers } from '../assets/assets'
-import BlurCircle from './BlurCircle'
-import ReactPlayer from 'react-player'
+import React, { useState } from 'react';
+import YouTube from 'react-youtube';
+import { dummyTrailers } from '../assets/assets';
+import BlurCircle from './BlurCircle';
 
 const TrailerSection = () => {
+  const [currentTrailer, setCurrentTrailer] = useState(dummyTrailers[0]);
 
-  const [currentTrailer, setCurrentTrailer] = useState(dummyTrailers[0])
-console.log("urlll",currentTrailer.videoUrl);
-console.log("hdfgjksdhkjg",JSON.stringify(currentTrailer.videoUrl));
+  // Extract YouTube video ID from full URL
+  const getVideoId = (url) => {
+    const match = url.match(/v=([^&]+)/);
+    return match ? match[1] : url;
+  };
 
   return (
     <div className='custom-container py-20 overflow-hidden'>
+      <p className='text-gray-300 font-medium text-lg max-w-[960px] mx-auto'>
+        Trailers
+      </p>
 
-        <p className='text-gray-300 font-medium text-lg max-w-[960px] mx-auto'>Trailers</p>
+      <div className='relative mt-6'>
+        {currentTrailer?.videoUrl && (
+          <YouTube
+            videoId={getVideoId(currentTrailer.videoUrl)}
+            opts={{
+              width: '960',
+              height: '540',
+              playerVars: { autoplay: 0 },
+            }}
+            className="mx-auto max-w-full"
+          />
+        )}
 
-        <div className='relative mt-6'>
-{currentTrailer?.videoUrl && (
-  <ReactPlayer
-    url={currentTrailer.videoUrl}
-    controls
-    className="mx-auto max-w-full"
-    width="960px"
-    height="540px"
-  />
-)}
-          <ReactPlayer src='https://www.youtube.com/watch?v=5VYb3B1ETlk' />
+        {/* Example: Change trailer on click */}
+        <div className="mt-6 flex gap-4 flex-wrap justify-center">
+          {dummyTrailers.map((trailer, idx) => (
+            <img
+              key={idx}
+              src={trailer.image}
+              alt="Trailer Thumbnail"
+              className={`w-40 cursor-pointer rounded-lg border-2 ${
+                currentTrailer.videoUrl === trailer.videoUrl
+                  ? 'border-red-500'
+                  : 'border-transparent'
+              }`}
+              onClick={() => setCurrentTrailer(trailer)}
+            />
+          ))}
         </div>
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TrailerSection
+export default TrailerSection;

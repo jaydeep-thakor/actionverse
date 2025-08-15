@@ -13,7 +13,7 @@ const SeatLayout = () => {
   const [show, setShow] = useState(null);
 
   const navigate = useNavigate();
-
+ n
   const getShow = async () => {
     const showId = dummyShowsData.find((show)=>{
       return show._id === id;
