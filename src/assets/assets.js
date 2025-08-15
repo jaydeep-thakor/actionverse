@@ -274,65 +274,23 @@ export const dummyShowsData = [
     }
 ]
 
-// export const dummyMoviessData = [
 
-//     {
-//     "_id": "43827",
-//     "id": 43827,
-//     "title": "Avengers: Age of Ultron",
-//     "overview": "When Tony Stark jumpstarts a dormant peacekeeping program, things go terribly wrong, forcing him, Thor, the Hulk, and the rest of the Avengers to reassemble as the fate of Earth hangs in the balance. As the villainous Ultron emerges, it's up to Earth's mightiest heroes to stop him from enacting his terrible plans.",
-//     "poster_path": moviePoster1, // Replace with actual image import or URL
-//     "genres": [
-//         { "id": 28, "name": "Action" },
-//         { "id": 12, "name": "Adventure" },
-//         { "id": 878, "name": "Science Fiction" }
-//     ],
-//     "casts": dummyCastsData, 
-//     "release_date": "2015-05-01",
-//     "original_language": "en",
-//     "tagline": "A new age begins.",
-//     "vote_average": 7.3,
-//     "vote_count": 78000,
-//     "runtime": 141
-// },
-
-//     {
-//     "_id": "87542",
-//     "id": 87542,
-//     "title": "Black Widow",
-//     "overview": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-//     "poster_path": moviePoster2,
-//     "genres": [
-//         { "id": 28, "name": "Action" },
-//         { "id": 12, "name": "Adventure" },
-//         { "id": 878, "name": "Science Fiction" }
-//     ],
-//     "casts": dummyCastsData,
-//     "release_date": "2021-07-09",
-//     "original_language": "en",
-//     "tagline": "Her world. Her secrets. Her legacy.",
-//     "vote_average": 6.8,
-//     "vote_count": 32000,
-//     "runtime": 134
-// }
-
-// ]
 
 export const dummyTrailers = [
     {
-        image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-        videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
+        image: "https://i.ytimg.com/vi/SHMM4abUWfk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAouFdAKTshCZbmsG3iIDL458GpTw",
+        videoUrl: 'https://www.youtube.com/watch?v=SHMM4abUWfk&pp=ygULV2FuZGFWaXNpb24%3D'
     },
     {
-        image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
-        videoUrl: 'https://www.youtube.com/watch?v=-sAOWhvheK8'
+        image: "https://i.ytimg.com/vi/5VYb3B1ETlk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDeFZQmeFXz0y1MvccApTT6fYSshA",
+        videoUrl: 'https://www.youtube.com/watch?v=5VYb3B1ETlk&pp=ygUPaGF3a2V5ZSB0cmFpbGVy'
     },
     {
         image: "https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg",
         videoUrl: 'https://www.youtube.com/watch?v=1pHDWnXmK7Y'
     },
     {
-        image: "https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg",
-        videoUrl: 'https://www.youtube.com/watch?v=umiKiW4En9g'
+        image: "https://i.ytimg.com/vi/m9EX0f6V11Y/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAG9dKmwlbL6dUYJ2jI5cm55EN0wg",
+        videoUrl: 'https://www.youtube.com/watch?v=m9EX0f6V11Y&pp=ygUJbXMgbWFydmVs'
     },
 ]

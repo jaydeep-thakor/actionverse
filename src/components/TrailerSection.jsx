@@ -18,12 +18,12 @@ const TrailerSection = () => {
         Trailers
       </p>
 
-      <div className='relative mt-6'>
+      <div className='relative mt-6 mx-auto max-w-[960px] w-full aspect-video'>
         {currentTrailer?.videoUrl && (
           <YouTube
             videoId={getVideoId(currentTrailer.videoUrl)}
             opts={{
-              width: '960',
+              width: '100%',
               height: '540',
               playerVars: { autoplay: 0 },
             }}
