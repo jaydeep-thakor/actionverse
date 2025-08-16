@@ -1,15 +1,40 @@
-import seriesPoster1 from "../assets/images/posters/1.jpg"
-import seriesPoster2 from "../assets/images/posters/2.jpg"
-import seriesPoster3 from "../assets/images/posters/3.jpg"
-import seriesPoster4 from "../assets/images/posters/4.jpg"
-import seriesPoster5 from "../assets/images/posters/5.jpg"
-import seriesPoster6 from "../assets/images/posters/6.jpg"
-import seriesPoster7 from "../assets/images/posters/7.jpg"
-import seriesPoster8 from "../assets/images/posters/8.jpg"
-import seriesPoster9 from "../assets/images/posters/9.jpg"
-import seriesPoster10 from "../assets/images/posters/10.jpg"
-import seriesPoster11 from "../assets/images/posters/11.jpg"
-import seriesPoster12 from "../assets/images/posters/12.jpg"
+import seriesPoster1 from "../assets/images/posters/series-1.jpg"
+import seriesPoster2 from "../assets/images/posters/series-2.jpg"
+import seriesPoster3 from "../assets/images/posters/series-3.jpg"
+import seriesPoster4 from "../assets/images/posters/series-4.jpg"
+import seriesPoster5 from "../assets/images/posters/series-5.jpg"
+import seriesPoster6 from "../assets/images/posters/series-6.jpg"
+import seriesPoster7 from "../assets/images/posters/series-7.jpg"
+import seriesPoster8 from "../assets/images/posters/series-8.jpg"
+import seriesPoster9 from "../assets/images/posters/series-9.jpg"
+import seriesPoster10 from "../assets/images/posters/series-10.jpg"
+import seriesPoster11 from "../assets/images/posters/series-11.jpg"
+import seriesPoster12 from "../assets/images/posters/series-12.jpg"
+import seriesPoster13 from "../assets/images/posters/series-13.jpg"
+import seriesPoster14 from "../assets/images/posters/series-14.jpg"
+import seriesPoster15 from "../assets/images/posters/series-15.jpg"
+import seriesPoster16 from "../assets/images/posters/series-16.jpg"
+import seriesPoster17 from "../assets/images/posters/series-17.jpg"
+import seriesPoster18 from "../assets/images/posters/series-18.jpg"
+
+import moviePoster1 from "../assets/images/posters/movie-1.jpg"
+import moviePoster2 from "../assets/images/posters/movie-2.jpg"
+import moviePoster3 from "../assets/images/posters/movie-3.jpg"
+import moviePoster4 from "../assets/images/posters/movie-4.jpg"
+import moviePoster5 from "../assets/images/posters/movie-5.jpg"
+import moviePoster6 from "../assets/images/posters/movie-6.jpg"
+import moviePoster7 from "../assets/images/posters/movie-7.jpg"
+import moviePoster8 from "../assets/images/posters/movie-8.jpg"
+import moviePoster9 from "../assets/images/posters/movie-9.jpg"
+import moviePoster10 from "../assets/images/posters/movie-10.jpg"
+import moviePoster11 from "../assets/images/posters/movie-11.jpg"
+import moviePoster12 from "../assets/images/posters/movie-12.jpg"
+import moviePoster13 from "../assets/images/posters/movie-13.jpg"
+import moviePoster14 from "../assets/images/posters/movie-14.jpg"
+import moviePoster15 from "../assets/images/posters/movie-15.jpg"
+import moviePoster16 from "../assets/images/posters/movie-16.jpg"
+import moviePoster17 from "../assets/images/posters/movie-17.jpg"
+import moviePoster18 from "../assets/images/posters/movie-18.jpg"
 
 import cast1 from "../assets/images/casts/1.jpg"
 import cast2 from "../assets/images/casts/2.jpg"
@@ -21,14 +46,14 @@ import cast7 from "../assets/images/casts/7.jpg"
 import cast8 from "../assets/images/casts/8.jpg"
 
 const dummyCastsData = [
-    {name: "Hailee Steinfeld", castName: "Kate Bishop", castImg : cast1},
-    {name: "", castName: "Pizza Dog", castImg : cast2},
-    {name: "Jeremy Renner", castName: "Clint Barton", castImg : cast3},
-    {name: "Florence Pugh", castName: "Yelena Belova", castImg : cast4},
-    {name: "Vera Farmiga", castName: "Eleanor Bishop", castImg : cast5},
-    {name: "Tony Dalton", castName: "Jack Duquesne", castImg : cast6},
-    {name: "Alaqua Cox", castName: "Echo", castImg : cast7},
-    {name: "Fra Fee", castName: "Kazi", castImg : cast8},
+    { name: "Hailee Steinfeld", castName: "Kate Bishop", castImg: cast1 },
+    { name: "", castName: "Pizza Dog", castImg: cast2 },
+    { name: "Jeremy Renner", castName: "Clint Barton", castImg: cast3 },
+    { name: "Florence Pugh", castName: "Yelena Belova", castImg: cast4 },
+    { name: "Vera Farmiga", castName: "Eleanor Bishop", castImg: cast5 },
+    { name: "Tony Dalton", castName: "Jack Duquesne", castImg: cast6 },
+    { name: "Alaqua Cox", castName: "Echo", castImg: cast7 },
+    { name: "Fra Fee", castName: "Kazi", castImg: cast8 },
 ]
 
 export const dummyDateTimeData = {
@@ -72,7 +97,8 @@ export const dummyShowsData = [
         "tagline": "From the legacy of Iron Man rises a new hero.",
         "vote_average": 0,
         "vote_count": 0,
-        "total_episodes": 6
+        "total_episodes": 6,
+        "type": "series"
     }, {
         "_id": "520498",
         "id": 520498,
@@ -90,8 +116,9 @@ export const dummyShowsData = [
         "tagline": "This holiday season, the best gifts come with a bow.",
         "vote_average": 7.6,
         "vote_count": 95000,
-        "total_episodes": 6
-    },{
+        "total_episodes": 6,
+        "type": "series"
+    }, {
         "_id": "907134",
         "id": 907134,
         "title": "Daredevil: Born Again",
@@ -108,8 +135,30 @@ export const dummyShowsData = [
         "tagline": "Justice never dies.",
         "vote_average": 0,
         "vote_count": 0,
-        "total_episodes": 18
-    }, {
+        "total_episodes": 18,
+        "type": "series"
+    },
+    {
+        "_id": "864210",
+        "id": 864210,
+        "title": "Eyes of Wakanda",
+        "overview": "Follow the heroes and spies of Wakanda as they uncover hidden threats and protect the kingdom from unseen dangers, blending high-tech espionage with royal intrigue.",
+        "poster_path": seriesPoster13,
+        "genres": [
+            { "id": 10759, "name": "Action & Adventure" },
+            { "id": 10765, "name": "Sci-Fi & Fantasy" },
+            { "id": 18, "name": "Drama" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2023-11-29",
+        "original_language": "en",
+        "tagline": "The eyes of Wakanda never miss a threat.",
+        "vote_average": 7.8,
+        "vote_count": 15000,
+        "total_episodes": 6,
+        "type": "series"
+    },
+    {
         "_id": "284761",
         "id": 284761,
         "title": "Ms. Marvel",
@@ -126,7 +175,8 @@ export const dummyShowsData = [
         "tagline": "Not all heroes have to be grown up.",
         "vote_average": 6.2,
         "vote_count": 45000,
-        "total_episodes": 6
+        "total_episodes": 6,
+        "type": "series"
     }, {
         "_id": "675230",
         "id": 675230,
@@ -144,7 +194,8 @@ export const dummyShowsData = [
         "tagline": "Witches. Chaos. Secrets. And it’s been Agatha all along.",
         "vote_average": 0,
         "vote_count": 0,
-        "total_episodes": 9
+        "total_episodes": 9,
+        "type": "series"
     }, {
         "_id": "139846",
         "id": 139846,
@@ -162,8 +213,9 @@ export const dummyShowsData = [
         "tagline": "A love story, a mystery, and a reality unlike any other.",
         "vote_average": 8.0,
         "vote_count": 120000,
-        "total_episodes": 9
-    },{
+        "total_episodes": 9,
+        "type": "series"
+    }, {
         "_id": "746193",
         "id": 746193,
         "title": "The Falcon and the Winter Soldier",
@@ -180,7 +232,8 @@ export const dummyShowsData = [
         "tagline": "Honor the legacy. Fight for the future.",
         "vote_average": 7.2,
         "vote_count": 90000,
-        "total_episodes": 6
+        "total_episodes": 6,
+        "type": "series"
     }, {
         "_id": "381920",
         "id": 381920,
@@ -198,7 +251,8 @@ export const dummyShowsData = [
         "tagline": "Every hero has a beginning—even in high school.",
         "vote_average": 0,
         "vote_count": 0,
-        "total_episodes": 10
+        "total_episodes": 10,
+        "type": "series"
     }, {
         "_id": "609473",
         "id": 609473,
@@ -216,7 +270,8 @@ export const dummyShowsData = [
         "tagline": "Time is running out.",
         "vote_average": 8.3,
         "vote_count": 75000,
-        "total_episodes": 6
+        "total_episodes": 6,
+        "type": "series"
     }, {
         "_id": "492087",
         "id": 492087,
@@ -234,7 +289,8 @@ export const dummyShowsData = [
         "tagline": "The mutant legacy lives on.",
         "vote_average": 8.5,
         "vote_count": 30000,
-        "total_episodes": 10
+        "total_episodes": 10,
+        "type": "series"
     }, {
         "_id": "753810",
         "id": 753810,
@@ -252,7 +308,8 @@ export const dummyShowsData = [
         "tagline": "The galaxy’s most festive misfits are back.",
         "vote_average": 6.9,
         "vote_count": 25000,
-        "total_episodes": 1
+        "total_episodes": 1,
+        "type": "series"
     }, {
         "_id": "864209",
         "id": 864209,
@@ -270,27 +327,467 @@ export const dummyShowsData = [
         "tagline": "New worlds. New heroes. Same Watcher.",
         "vote_average": 7.4,
         "vote_count": 20000,
-        "total_episodes": 9
+        "total_episodes": 9,
+        "type": "series"
+    },
+    {
+        "_id": "864212",
+        "id": 864212,
+        "title": "She-Hulk: Attorney at Law",
+        "overview": "Jennifer Walters, a lawyer who inherits her cousin Bruce Banner’s Hulk powers, navigates the challenges of balancing her legal career with her newfound superhero abilities, all while facing unusual cases and personal dilemmas.",
+        "poster_path": seriesPoster15,
+        "genres": [
+            { "id": 35, "name": "Comedy" },
+            { "id": 18, "name": "Drama" },
+            { "id": 10759, "name": "Action & Adventure" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2022-08-17",
+        "original_language": "en",
+        "tagline": "Strong on the streets. Stronger in the courtroom.",
+        "vote_average": 7.9,
+        "vote_count": 25000,
+        "total_episodes": 9,
+        "type": "series"
+    },
+    {
+        "_id": "864213",
+        "id": 864213,
+        "title": "MPower",
+        "overview": "MPower is a four-part documentary series that celebrates the women of the Marvel Cinematic Universe, featuring archival footage, animation, and interviews with key actors and creators.",
+        "poster_path": seriesPoster16,
+        "genres": [
+            { "id": 99, "name": "Documentary" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2023-03-08",
+        "original_language": "en",
+        "tagline": "Celebrating the women who bring the Marvel Universe to life.",
+        "vote_average": 7.5,
+        "vote_count": 15000,
+        "total_episodes": 4,
+        "type": "series"
+    },
+    {
+        "_id": "864214",
+        "id": 864214,
+        "title": "Marvel’s Behind the Mask",
+        "overview": "A documentary series that explores the history, evolution, and cultural impact of Marvel’s iconic characters and superheroes, featuring interviews with creators, actors, and fans.",
+        "poster_path": seriesPoster17,
+        "genres": [
+            { "id": 99, "name": "Documentary" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2023-07-12",
+        "original_language": "en",
+        "tagline": "Unmasking the stories behind the legends.",
+        "vote_average": 7.6,
+        "vote_count": 12000,
+        "total_episodes": 4,
+        "type": "series"
+    },
+    {
+        "_id": "864215",
+        "id": 864215,
+        "title": "Marvel’s 616",
+        "overview": "A documentary series that delves into the rich history of the Marvel Universe, exploring the stories behind the comics, characters, and creators who shaped Marvel’s legacy over the decades.",
+        "poster_path": seriesPoster18,
+        "genres": [
+            { "id": 99, "name": "Documentary" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2020-11-20",
+        "original_language": "en",
+        "tagline": "The stories behind the Marvel Universe.",
+        "vote_average": 7.8,
+        "vote_count": 10000,
+        "total_episodes": 8,
+        "type": "series"
+    },{
+        "_id": "864211",
+        "id": 864211,
+        "title": "I Am Groot Season 2",
+        "overview": "Baby Groot embarks on new mischievous adventures across the galaxy, encountering strange creatures, hilarious situations, and heartwarming moments along the way.",
+        "poster_path": seriesPoster14,
+        "genres": [
+            { "id": 16, "name": "Animation" },
+            { "id": 10751, "name": "Family" },
+            { "id": 35, "name": "Comedy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2025-08-15",
+        "original_language": "en",
+        "tagline": "Big adventures, tiny Groot.",
+        "vote_average": 8.2,
+        "vote_count": 12000,
+        "total_episodes": 10,
+        "type": "series"
+    }, {
+        "_id": "429617",
+        "id": 429617,
+        "title": "Spider-Man: Far From Home",
+        "overview": "Peter Parker's relaxing European vacation takes an unexpected turn when Nick Fury recruits him for a mission to uncover the mystery of several elemental creature attacks, creating havoc across the continent.",
+        "poster_path": moviePoster1,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2019-07-02",
+        "original_language": "en",
+        "tagline": "Step up. It's your turn.",
+        "vote_average": 7.4,
+        "vote_count": 150000,
+        "type": "movie"
+    },
+    {
+        "_id": "800391",
+        "id": 800391,
+        "title": "Fantastic Four: First Steps",
+        "overview": "When four brilliant young explorers gain extraordinary powers after a cosmic experiment goes wrong, they must learn to harness their new abilities and work together to stop a powerful enemy threatening Earth.",
+        "poster_path": moviePoster2,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2025-05-15",
+        "original_language": "en",
+        "tagline": "Every hero has a beginning.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "747375",
+        "id": 747375,
+        "title": "Thunderbolts",
+        "overview": "A team of misfit anti-heroes and reformed villains are brought together by the government for dangerous missions no one else is willing to take on. But as secrets unfold, trust within the group becomes their biggest challenge.",
+        "poster_path": moviePoster3,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2025-07-25",
+        "original_language": "en",
+        "tagline": "Bad guys. Worse mission.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "529680",
+        "id": 529680,
+        "title": "Captain America: Brave New World",
+        "overview": "Sam Wilson takes up the mantle of Captain America as he faces a new global threat that challenges his leadership, ideals, and the responsibility of carrying the shield. Allies and enemies emerge in a world striving for balance.",
+        "poster_path": moviePoster4,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 53, "name": "Thriller" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2025-02-14",
+        "original_language": "en",
+        "tagline": "A new hero rises for a new world.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "726491",
+        "id": 726491,
+        "title": "Deadpool & Wolverine",
+        "overview": "Deadpool’s chaotic world collides with Wolverine’s when an unexpected mission forces the reluctant duo to team up. As timelines unravel and enemies multiply, the two unlikely allies must fight together to survive.",
+        "poster_path": moviePoster5,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 35, "name": "Comedy" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2024-07-26",
+        "original_language": "en",
+        "tagline": "Guess who's back, bub?",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "835274",
+        "id": 835274,
+        "title": "The Marvels",
+        "overview": "Carol Danvers, Kamala Khan, and Monica Rambeau find their powers entangled, forcing them to unite as The Marvels to confront a universe-spanning threat that could change the fate of worlds.",
+        "poster_path": moviePoster6,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2023-11-10",
+        "original_language": "en",
+        "tagline": "Higher. Further. Faster. Together.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "639182",
+        "id": 639182,
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "overview": "Scott Lang and Hope van Dyne, along with Hank Pym and Janet van Dyne, explore the Quantum Realm, encountering strange new creatures and an adversary who could reshape the future of the multiverse.",
+        "poster_path": moviePoster7,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2023-02-17",
+        "original_language": "en",
+        "tagline": "Witness the beginning of a new dynasty.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "584927",
+        "id": 584927,
+        "title": "Thor: Love and Thunder",
+        "overview": "Thor embarks on a journey of self-discovery, but his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods. With the help of Valkyrie, Korg, and Jane Foster wielding Mjolnir as the Mighty Thor, they set out to stop him.",
+        "poster_path": moviePoster8,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 14, "name": "Fantasy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2022-07-08",
+        "original_language": "en",
+        "tagline": "The one and only Thor.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "471982",
+        "id": 471982,
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "overview": "Doctor Stephen Strange traverses the mind-bending and dangerous alternate realities of the Multiverse with the help of mystical allies, confronting a powerful new adversary while pushing the limits of his magic.",
+        "poster_path": moviePoster9,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 14, "name": "Fantasy" },
+            { "id": 27, "name": "Horror" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2022-05-06",
+        "original_language": "en",
+        "tagline": "Enter a new dimension of Strange.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "529734",
+        "id": 529734,
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "overview": "Martial-arts master Shang-Chi confronts the past he thought he left behind when he is drawn into the mysterious Ten Rings organization, forcing him to face his destiny and unlock his true potential.",
+        "poster_path": moviePoster10,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 14, "name": "Fantasy" },
+            { "id": 12, "name": "Adventure" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2021-09-03",
+        "original_language": "en",
+        "tagline": "You can't outrun your destiny.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "413982",
+        "id": 413982,
+        "title": "Black Widow",
+        "overview": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force determined to bring her down, she must reunite with her broken family to survive.",
+        "poster_path": moviePoster11,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 53, "name": "Thriller" },
+            { "id": 12, "name": "Adventure" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2021-07-09",
+        "original_language": "en",
+        "tagline": "Her world. Her secrets. Her legacy.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "526193",
+        "id": 526193,
+        "title": "Captain Marvel",
+        "overview": "Carol Danvers becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien civilizations. She must harness her newfound powers to protect humanity.",
+        "poster_path": moviePoster12,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2019-03-08",
+        "original_language": "en",
+        "tagline": "Higher. Further. Faster.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "618473",
+        "id": 618473,
+        "title": "Ant-Man and the Wasp",
+        "overview": "Scott Lang balances being both a superhero and a father while teaming up with Hope van Dyne as the Wasp. Together, they embark on a new mission to uncover secrets from the past while facing a powerful new threat.",
+        "poster_path": moviePoster13,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 35, "name": "Comedy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2018-07-06",
+        "original_language": "en",
+        "tagline": "Suit up for the next chapter.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "734912",
+        "id": 734912,
+        "title": "Thor: Ragnarok",
+        "overview": "Thor finds himself imprisoned on the other side of the universe without his hammer and must race against time to prevent the all-powerful Hela from destroying Asgard. He forms an unlikely alliance with Hulk and Valkyrie to save his home.",
+        "poster_path": moviePoster14,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 14, "name": "Fantasy" },
+            { "id": 35, "name": "Comedy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2017-11-03",
+        "original_language": "en",
+        "tagline": "No Hammer. No Problem.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "642379",
+        "id": 642379,
+        "title": "Spider-Man: Homecoming",
+        "overview": "Peter Parker navigates high school life while trying to prove himself as a worthy superhero. With the guidance of Tony Stark, he must confront the villainous Vulture and protect New York from his dangerous schemes.",
+        "poster_path": moviePoster15,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2017-07-07",
+        "original_language": "en",
+        "tagline": "The next generation of heroes.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "751364",
+        "id": 751364,
+        "title": "Captain America: Civil War",
+        "overview": "Political interference in the Avengers' activities causes a rift between Captain America and Iron Man. The team splits into factions, leading to an epic showdown that tests friendships and alliances like never before.",
+        "poster_path": moviePoster16,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 53, "name": "Thriller" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2016-04-12",
+        "original_language": "en",
+        "tagline": "Divided We Fall.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "689241",
+        "id": 689241,
+        "title": "Ant-Man",
+        "overview": "Armed with a suit that allows him to shrink in size but increase in strength, Scott Lang must embrace his inner hero and help his mentor, Hank Pym, protect the secrets of the Ant-Man technology from falling into the wrong hands.",
+        "poster_path": moviePoster17,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 35, "name": "Comedy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2015-07-17",
+        "original_language": "en",
+        "tagline": "Heroes come in small packages.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
+    },
+    {
+        "_id": "734865",
+        "id": 734865,
+        "title": "Captain America: The First Avenger",
+        "overview": "During World War II, Steve Rogers transforms from a frail young man into the super-soldier Captain America. He must stop the Red Skull and the nefarious HYDRA organization from using a powerful artifact to conquer the world.",
+        "poster_path": moviePoster18,
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 10752, "name": "War" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2011-07-22",
+        "original_language": "en",
+        "tagline": "The world needed a hero. It got one.",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "type": "movie"
     }
 ]
 
-
+import thumbnail1 from "./images/thumbnails/thumbnail-1.jpg";
+import thumbnail2 from "./images/thumbnails/thumbnail-2.jpg";
+import thumbnail3 from "./images/thumbnails/thumbnail-3.jpg";
+import thumbnail4 from "./images/thumbnails/thumbnail-4.jpg";
 
 export const dummyTrailers = [
     {
-        image: "https://i.ytimg.com/vi/SHMM4abUWfk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAouFdAKTshCZbmsG3iIDL458GpTw",
-        videoUrl: 'https://www.youtube.com/watch?v=SHMM4abUWfk&pp=ygULV2FuZGFWaXNpb24%3D'
+        image: thumbnail1,
+        videoUrl: 'https://www.youtube.com/watch?v=wS_qbDztgVY'
     },
     {
-        image: "https://i.ytimg.com/vi/5VYb3B1ETlk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDeFZQmeFXz0y1MvccApTT6fYSshA",
+        image: thumbnail2,
         videoUrl: 'https://www.youtube.com/watch?v=5VYb3B1ETlk&pp=ygUPaGF3a2V5ZSB0cmFpbGVy'
     },
     {
-        image: "https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg",
-        videoUrl: 'https://www.youtube.com/watch?v=1pHDWnXmK7Y'
+        image: thumbnail3,
+        videoUrl: 'https://www.youtube.com/watch?v=-mjWrrKgwJM'
     },
+
     {
-        image: "https://i.ytimg.com/vi/m9EX0f6V11Y/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAG9dKmwlbL6dUYJ2jI5cm55EN0wg",
-        videoUrl: 'https://www.youtube.com/watch?v=m9EX0f6V11Y&pp=ygUJbXMgbWFydmVs'
+        image: thumbnail4,
+        videoUrl: 'https://www.youtube.com/watch?v=N3J2JRQg040&pp=ygUleW91ciBmcmllbmRseSBuZWlnaGJvcmhvb2Qgc3BpZGVyLW1hbg%3D%3D'
     },
 ]

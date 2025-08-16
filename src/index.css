@@ -28,6 +28,12 @@ button{
   --color-primary-light: #F56A6F;
 }
 
+html{
+      scrollbar-color: red #111;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+}
+
 body{
   background-color: #09090b;
   color: #ffffff;

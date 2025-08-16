@@ -1,11 +1,14 @@
 import { ArrowRight } from 'lucide-react';
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import BlurCircle from './BlurCircle';
 import {dummyShowsData} from "../assets/assets"
 import MovieCard from './MovieCard';
 
 const FeaturedSection = () => {
+
+    const [tab, setTab] = useState("series");
+    console.log(tab)
 
     const navigate = useNavigate();
 
@@ -23,11 +26,20 @@ const FeaturedSection = () => {
             <ArrowRight className='group-hover:translate-x-0.5 transition h-5'/></button>
         </div>
 
+<div className='flex gap-5 items-center mb-10'>
+<button onClick={()=> setTab("series")} className={`text-sm transition duration-300 border border-primary px-6 py-1.5 rounded-sm ${tab === "series" ? "bg-primary text-white" : "text-primary"}`}>Web Series</button>
+<button onClick={()=> setTab("movies")} className={`text-sm transition duration-300 border border-primary px-6 py-1.5 rounded-sm ${tab === "movies" ? "bg-primary text-white" : "text-primary"}`}>Movies</button>
+</div>
+
         <div className='flex flex-wrap gap-[30px]'>
 
-{dummyShowsData.slice(0,6).map((show, index) => (
-    <MovieCard key={index} movie={show} />
-))}
+{dummyShowsData
+    .filter(item => tab === "series" ? item.type === "series" : item.type === "movie") 
+    .slice(0,6)
+    .map(item => (
+      <MovieCard key={item.id} movie={item} /> 
+    ))
+  }
 
         </div>
 

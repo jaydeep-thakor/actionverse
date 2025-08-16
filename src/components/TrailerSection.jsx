@@ -24,7 +24,7 @@ const TrailerSection = () => {
             videoId={getVideoId(currentTrailer.videoUrl)}
             opts={{
               width: '100%',
-              height: '540',
+              height: '500',
               playerVars: { autoplay: 0 },
             }}
             className="mx-auto max-w-full"
