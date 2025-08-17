@@ -14,13 +14,13 @@ const DateSelect = ({ dateTime, id }) => {
     if(!selected){
       return toast("Please select a date");
     }else{
-      navigate(`/movies/${id}/${selected}`);
+      navigate(`/shows/${id}/${selected}`);
       scrollTo(0,0);
     }
   }
 
   return (
-    <div className="pt-30" id="dateSelect">
+    <div className="max-md:pt-10 pt-20" id="dateSelect">
       <div className="flex flex-col md:flex-row items-center justify-between gap-10 relative p-8 bg-primary/10 border border-primary/20 rounded-lg">
         <BlurCircle top="-100px" left="-100px" />
         <BlurCircle top="100px" left="0px" />

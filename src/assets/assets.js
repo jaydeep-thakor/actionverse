@@ -92,13 +92,14 @@ export const dummyShowsData = [
             { "id": 10759, "name": "Action & Adventure" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-01-01",
+        "release_date": "2025-06-24",
         "original_language": "en",
         "tagline": "From the legacy of Iron Man rises a new hero.",
         "vote_average": 0,
         "vote_count": 0,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": ""
     }, {
         "_id": "520498",
         "id": 520498,
@@ -117,7 +118,8 @@ export const dummyShowsData = [
         "vote_average": 7.6,
         "vote_count": 95000,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
     }, {
         "_id": "907134",
         "id": 907134,
@@ -130,13 +132,14 @@ export const dummyShowsData = [
             { "id": 10759, "name": "Action & Adventure" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-03-01",
+        "release_date": "2025-03-04",
         "original_language": "en",
         "tagline": "Justice never dies.",
         "vote_average": 0,
         "vote_count": 0,
-        "total_episodes": 18,
-        "type": "series"
+        "total_episodes": 9,
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=7xALolZzhSM"
     },
     {
         "_id": "864210",
@@ -150,13 +153,14 @@ export const dummyShowsData = [
             { "id": 18, "name": "Drama" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2023-11-29",
+        "release_date": "2025-08-01",
         "original_language": "en",
         "tagline": "The eyes of Wakanda never miss a threat.",
         "vote_average": 7.8,
         "vote_count": 15000,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=ODHh6oe4MlE"
     },
     {
         "_id": "284761",
@@ -176,7 +180,8 @@ export const dummyShowsData = [
         "vote_average": 6.2,
         "vote_count": 45000,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
     }, {
         "_id": "675230",
         "id": 675230,
@@ -189,13 +194,14 @@ export const dummyShowsData = [
             { "id": 18, "name": "Drama" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-09-18",
+        "release_date": "2024-09-18",
         "original_language": "en",
         "tagline": "Witches. Chaos. Secrets. And it’s been Agatha all along.",
         "vote_average": 0,
         "vote_count": 0,
         "total_episodes": 9,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
     }, {
         "_id": "139846",
         "id": 139846,
@@ -214,7 +220,8 @@ export const dummyShowsData = [
         "vote_average": 8.0,
         "vote_count": 120000,
         "total_episodes": 9,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=sj9J2ecsSpo"
     }, {
         "_id": "746193",
         "id": 746193,
@@ -233,7 +240,8 @@ export const dummyShowsData = [
         "vote_average": 7.2,
         "vote_count": 90000,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=IWBsDaFWyTE"
     }, {
         "_id": "381920",
         "id": 381920,
@@ -246,13 +254,14 @@ export const dummyShowsData = [
             { "id": 10759, "name": "Action & Adventure" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2024-11-02",
+        "release_date": "2025-01-29",
         "original_language": "en",
         "tagline": "Every hero has a beginning—even in high school.",
         "vote_average": 0,
         "vote_count": 0,
         "total_episodes": 10,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=N3J2JRQg040"
     }, {
         "_id": "609473",
         "id": 609473,
@@ -271,7 +280,8 @@ export const dummyShowsData = [
         "vote_average": 8.3,
         "vote_count": 75000,
         "total_episodes": 6,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=dug56u8NN7g"
     }, {
         "_id": "492087",
         "id": 492087,
@@ -290,7 +300,8 @@ export const dummyShowsData = [
         "vote_average": 8.5,
         "vote_count": 30000,
         "total_episodes": 10,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=pv3Ss8o9gGQ"
     }, {
         "_id": "753810",
         "id": 753810,
@@ -309,7 +320,8 @@ export const dummyShowsData = [
         "vote_average": 6.9,
         "vote_count": 25000,
         "total_episodes": 1,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=OYhFFQl4fLs"
     }, {
         "_id": "864209",
         "id": 864209,
@@ -328,7 +340,8 @@ export const dummyShowsData = [
         "vote_average": 7.4,
         "vote_count": 20000,
         "total_episodes": 9,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=TiEVqZ2Bc_c"
     },
     {
         "_id": "864212",
@@ -348,7 +361,8 @@ export const dummyShowsData = [
         "vote_average": 7.9,
         "vote_count": 25000,
         "total_episodes": 9,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=u7JsKhI2An0"
     },
     {
         "_id": "864213",
@@ -366,7 +380,8 @@ export const dummyShowsData = [
         "vote_average": 7.5,
         "vote_count": 15000,
         "total_episodes": 4,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=SBPdq6be_Ss"
     },
     {
         "_id": "864214",
@@ -384,7 +399,8 @@ export const dummyShowsData = [
         "vote_average": 7.6,
         "vote_count": 12000,
         "total_episodes": 4,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "http://youtube.com/watch?v=ZZKzPblr1lc"
     },
     {
         "_id": "864215",
@@ -402,7 +418,8 @@ export const dummyShowsData = [
         "vote_average": 7.8,
         "vote_count": 10000,
         "total_episodes": 8,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=1ODhWjCxydU"
     },{
         "_id": "864211",
         "id": 864211,
@@ -415,13 +432,14 @@ export const dummyShowsData = [
             { "id": 35, "name": "Comedy" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-08-15",
+        "release_date": "2023-09-06",
         "original_language": "en",
         "tagline": "Big adventures, tiny Groot.",
         "vote_average": 8.2,
         "vote_count": 12000,
         "total_episodes": 10,
-        "type": "series"
+        "type": "series",
+        "trailer_link": "https://www.youtube.com/watch?v=1k8H2CywVqg"
     }, {
         "_id": "429617",
         "id": 429617,
@@ -439,7 +457,8 @@ export const dummyShowsData = [
         "tagline": "Step up. It's your turn.",
         "vote_average": 7.4,
         "vote_count": 150000,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
     },
     {
         "_id": "800391",
@@ -458,7 +477,8 @@ export const dummyShowsData = [
         "tagline": "Every hero has a beginning.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=18QQWa5MEcs"
     },
     {
         "_id": "747375",
@@ -477,7 +497,8 @@ export const dummyShowsData = [
         "tagline": "Bad guys. Worse mission.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=-sAOWhvheK8"
     },
     {
         "_id": "529680",
@@ -496,7 +517,8 @@ export const dummyShowsData = [
         "tagline": "A new hero rises for a new world.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
     },
     {
         "_id": "726491",
@@ -515,7 +537,8 @@ export const dummyShowsData = [
         "tagline": "Guess who's back, bub?",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=73_1biulkYk"
     },
     {
         "_id": "835274",
@@ -534,7 +557,8 @@ export const dummyShowsData = [
         "tagline": "Higher. Further. Faster. Together.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=wS_qbDztgVY"
     },
     {
         "_id": "639182",
@@ -553,7 +577,8 @@ export const dummyShowsData = [
         "tagline": "Witness the beginning of a new dynasty.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=5WfTEZJnv_8"
     },
     {
         "_id": "584927",
@@ -572,7 +597,8 @@ export const dummyShowsData = [
         "tagline": "The one and only Thor.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=Go8nTmfrQd8"
     },
     {
         "_id": "471982",
@@ -591,7 +617,8 @@ export const dummyShowsData = [
         "tagline": "Enter a new dimension of Strange.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=aWzlQ2N6qqg"
     },
     {
         "_id": "529734",
@@ -610,7 +637,8 @@ export const dummyShowsData = [
         "tagline": "You can't outrun your destiny.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
     },
     {
         "_id": "413982",
@@ -629,7 +657,8 @@ export const dummyShowsData = [
         "tagline": "Her world. Her secrets. Her legacy.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=RxAtuMu_ph4"
     },
     {
         "_id": "526193",
@@ -648,7 +677,8 @@ export const dummyShowsData = [
         "tagline": "Higher. Further. Faster.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=Z1BCujX3pw8"
     },
     {
         "_id": "618473",
@@ -667,7 +697,8 @@ export const dummyShowsData = [
         "tagline": "Suit up for the next chapter.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=8_rTIAOohas"
     },
     {
         "_id": "734912",
@@ -687,7 +718,8 @@ export const dummyShowsData = [
         "tagline": "No Hammer. No Problem.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=ue80QwXMRHg"
     },
     {
         "_id": "642379",
@@ -706,7 +738,8 @@ export const dummyShowsData = [
         "tagline": "The next generation of heroes.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=DiTECkLZ8HM"
     },
     {
         "_id": "751364",
@@ -725,7 +758,8 @@ export const dummyShowsData = [
         "tagline": "Divided We Fall.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=dKrVegVI0Us"
     },
     {
         "_id": "689241",
@@ -744,7 +778,8 @@ export const dummyShowsData = [
         "tagline": "Heroes come in small packages.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=pWdKf3MneyI"
     },
     {
         "_id": "734865",
@@ -763,7 +798,8 @@ export const dummyShowsData = [
         "tagline": "The world needed a hero. It got one.",
         "vote_average": 0.0,
         "vote_count": 0,
-        "type": "movie"
+        "type": "movie",
+        "trailer_link": "https://www.youtube.com/watch?v=JerVrbLldXw"
     }
 ]
 

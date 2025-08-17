@@ -15,7 +15,7 @@ const Carousel = () => {
             img: banner0,
             title: "Spider-Man - Far From Home",
             desc: "Peter Parker embarks on a European school trip, only to have his vacation interrupted by mysterious elemental creatures and a new ally, Mysterio.",
-            id: 745921
+            id: 429617
         },
         {
             img: banner1,
@@ -87,7 +87,7 @@ const Carousel = () => {
                                 <p className="text-base md:text-lg font-medium drop-shadow-md">
                                     {slide.desc}
                                 </p>
-                                <button onClick={() => { navigate(`/movies/${slide.id}`) }} className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
+                                <button onClick={() => { navigate(`/shows/${slide.id}`) }} className="mt-2 bg-primary hover:bg-primary-hover text-white font-semibold px-4 py-2 shadow-md transition font-marvel tracking-wider">
                                     Book Now
                                 </button>
                             </div>

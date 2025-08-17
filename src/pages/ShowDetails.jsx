@@ -9,33 +9,35 @@ import Loading from '../components/Loading';
 
 const MovieDetails = () => {
 
+  
   const { id } = useParams();
   const [show, setShow] = useState(null);
-
+  
   const getShow = async () => {
     const showId = dummyShowsData.find((i) => {
       return i._id === id;
     })
     if(showId){
-    setShow({
-      showObj: showId,
-      dateTime: dummyDateTimeData
-    })
+      setShow({
+        showObj: showId,
+        dateTime: dummyDateTimeData
+      })
     }
   }
-
+  
   useEffect(() => {
     getShow();
   }, [id])
-
-return show ? <div className='custom-container pt-20 md:pt-30 pb-10'>
+  
+  
+return show ? <div className='custom-container pt-10 md:pt-30 pb-10'>
 
 
 <div className='flex flex-col md:flex-row gap-8 max-w-6xl mx-auto'>
 
 <img className='max-md:mx-auto rounded-xl h-104 max-w-70 object-cover' src={show.showObj.poster_path} alt="" />
 
-<div className="relative flex flex-col gap-4 py-2">
+<div className="relative flex flex-col gap-4 py-2 max-md:gap-3">
 
   <BlurCircle top="-100px" left="-100px" />
 
@@ -81,7 +83,7 @@ return show ? <div className='custom-container pt-20 md:pt-30 pb-10'>
 
 
 <div className='flex items-center gap-4'>
-<button className='text-xs font-medium flex items-center bg-gray-800 hover:bg-gray-900 cursor-pointer transition duration-300 rounded-md py-3 px-5 gap-2'><PlayCircleIcon/> Watch Trailer</button>
+<button onClick={() => window.open(show.showObj.trailer_link, "_blank")} className='text-xs font-medium flex items-center bg-gray-800 hover:bg-gray-900 cursor-pointer transition duration-300 rounded-md py-3 px-5 gap-2'><PlayCircleIcon/> Watch Trailer</button>
 <a href="#dateSelect" className='flex items-center text-xs font-medium bg-primary hover:bg-primary-hover cursor-pointer transition duration-300 rounded-md py-3 px-5 gap-2'><Ticket/> Buy Tickets</a>
 </div>
   
@@ -92,7 +94,7 @@ return show ? <div className='custom-container pt-20 md:pt-30 pb-10'>
 
 <div className='pt-7 md:pt-14'>
 <h2 className='text-lg font-medium mb-4'>Casts</h2>
-<div className='flex gap-4 w-max px-4 overflow-x-auto no-scrollbar mt-8 pb-4'>
+<div className='flex gap-4 px-4 max-md:px-0 overflow-x-auto no-scrollbar mt-8 pb-4 w-full'>
 <Casts casts={show.showObj.casts}/>
 </div>
 </div>

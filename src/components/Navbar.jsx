@@ -42,7 +42,7 @@ const Navbar = () => {
   <XIcon onClick={()=> setIsOpen(!isOpen)} className="md:hidden absolute top-5 right-5 h-8 w-8 text-white cursor-pointer" />
 
   <NavLink to="/" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Home</NavLink>
-  <NavLink to="/movies" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Movies</NavLink>
+  <NavLink to="/shows" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Shows</NavLink>
   <NavLink to="/" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Theaters</NavLink>
   <NavLink to="/" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Releases</NavLink>
   <NavLink to="/favorite" onClick={()=>{scrollTo(0,0); setIsOpen(false)}} className={({isActive})=>`hover:text-primary transition ${isActive ? "text-primary" : "text-white"}`}>Favorites</NavLink>

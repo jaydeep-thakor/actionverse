@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import MovieCard from '../components/MovieCard'
+import MovieCard from '../components/ShowCard'
 import { dummyShowsData } from '../assets/assets'
 
 const Movies = () => {
